@@ -6,7 +6,11 @@
 
   PocketFlow采用MIT开源许可证，具有高度的灵活性和可扩展性。它从最基本的图(Graph)结构出发，用最少的代码实现强大功能，非常适合需要快速开发AI应用的个人或团队。框架的核心抽象是嵌套有向图结构，将复杂任务分解为多步LLM子任务，并支持分支和递归决策。
 
-<img src="https://github.com/The-Pocket/.github/raw/main/assets/meme.jpg" width="400"/>
+<br>
+<div align="center">
+  <img src="https://github.com/The-Pocket/.github/raw/main/assets/meme.jpg" width="400"/>
+</div>
+</br>
 
 
 |                | **抽象概念** |                      **特定应用包装器**                      |                      **特定厂商包装器**                      |             **代码行数**              |                 **大小**                 |
