@@ -22,4 +22,5 @@
 ### 🌍20251129
 
 [PocketFlow：轻量级AI应用开发的极简主义框架](PocketFlow：轻量级AI应用开发的极简主义框架.md)
-[pgEdge：边缘计算时代的分布式 PostgreSQL 革新者](pgEdge：边缘计算时代的分布式 PostgreSQL 革新者.m)
+
+[pgEdge：边缘计算时代的分布式 PostgreSQL 革新者](pgEdge：边缘计算时代的分布式 PostgreSQL 革新者.md)
