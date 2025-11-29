@@ -79,11 +79,6 @@ qa_flow = Flow(start=answer_node)
 #### 3.1. **代码补全与IDE助手**
 
 PocketFlow可以快速构建类似Cursor的代码补全工具：
-
-python
-
-复制
-
 ```python
 class CodeAnalyzer(BaseNode):
     def exec(self, code):
@@ -100,10 +95,6 @@ flow.run("def add(a,b): return a+b")
 
 通过多智能体协作处理复杂任务：
 
-python
-
-复制
-
 ```python
 planner = Flow(TaskDecomposer())  # 主Agent规划任务
 worker = Flow(CodeEditor()).set_trigger(lambda x: x['task_type'] == 'coding')  # 子Agent执行
@@ -115,10 +106,6 @@ worker = Flow(CodeEditor()).set_trigger(lambda x: x['task_type'] == 'coding')  #
 #### 3.3 **实时多Agent协作平台**
 
 构建类似AutoGPT的自主协作系统：
-
-python
-
-复制
 
 ```python
 code_agent = Flow(CodeGenerator())
@@ -136,10 +123,6 @@ test_agent.run(shared_memory)
 - **医疗问答系统**：集成医学文献，提供循证回答。
 
 #### 3.5. **多媒体处理流水线**
-
-python
-
-复制
 
 ```python
 flow = Flow(VideoAnalyzer()).link_to(TranscriptGenerator()).link_to(SummaryNode())
