@@ -20,5 +20,6 @@
 ## 每日更新如下：
 
 ### 🌍20251129
+
 1、[PocketFlow：轻量级AI应用开发的极简主义框架](2025112901.md)
-2、[pgEdge:边缘计算时代的分布式PostgreSQL革新者](pgEdge:边缘计算时代的分布式PostgreSQL革新者.md)
+2、[pgEdge:边缘计算时代的分布式PostgreSQL革新者](2025112902.md)
